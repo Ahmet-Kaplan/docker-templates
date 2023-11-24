@@ -1,7 +1,7 @@
 # builder stage
 # from golang alpine image
 FROM golang:1.19-alpine as builder
-
+FROM go:version=" 1.20"
 # Installing Git for alpine
 RUN apk add --no-cache git
 
