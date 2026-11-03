@@ -8,7 +8,7 @@ import (
 )
 
 func indexHandler(c echo.Context) error {
-	return c.String(http.StatusOK, "We are IZU Linux Midterm students running echo :)")
+	return c.String(http.StatusOK, "We are Medipol students running echo :)")
 }
 
 func main() {
